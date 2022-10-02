@@ -1,19 +1,47 @@
 .sidebar {
   flex: 1;
   min-height: 100vh;
-  border-right: 1px solid #A0AEC0;
-  box-shadow: #A0AEC0;
+  border-right: 1px solid #a0aec0;
+  box-shadow: #a0aec0;
 
   &__top {
-    height: 50px;
-    display: flex;
-    align-items: center;
+    // height: 50px;
+    // display: flex;
+    // align-items: center;
     padding: 20px;
     // justify-content: center;
 
     img {
       width: 97.32px;
       cursor: pointer;
+    }
+
+    &__border {
+      display: flex;
+      background: #fafafa;
+      border-radius: 8px;
+      width: 180px;
+      padding: 10px;
+      margin: 20px 0px 20px 0px;
+      cursor: pointer;
+
+      p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        color: #1e1e1e;
+      }
+
+      span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.2px;
+        color: #474f54;
+      }
     }
   }
 }
