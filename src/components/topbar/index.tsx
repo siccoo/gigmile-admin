@@ -4,7 +4,9 @@ type Props = {}
 
 const Topbar = (props: Props) => {
   return (
-    <div>Topbar</div>
+    <div>
+      
+    </div>
   )
 }
 

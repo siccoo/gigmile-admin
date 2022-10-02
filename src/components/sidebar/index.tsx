@@ -1,17 +1,19 @@
-import "./sidebar.scss";
+import {AiOutlineSetting, AiOutlinePieChart} from "react-icons/ai";
+import {GrHomeRounded} from "react-icons/gr";
+import {FaUsers} from "react-icons/fa";
+import {HiOutlineDocumentText, HiOutlineBriefcase} from "react-icons/hi";
+import GigmileLogo from "../../assets/img/gigLogo.png"
 
-import GigmileLogo from "../../assets/img/gigLogo.svg";
+import "./sidebar.scss"
 
 const Sidebar = () => {
   return (
-    <div className="sidebar">
-      <div className="sidebar__top">
-        <span>
-          <img src={GigmileLogo} alt="" />
-        </span>
-      </div>
-      <div className="sidebar__center">list</div>
-      <div className="sidebar__bottom">logout list</div>
+    <div className='sidebar'>
+        <div className='sidebar__top'>
+<img src={GigmileLogo} alt="" />
+        </div>
+        <div className='sidebar__center'></div>
+        <div className='sidebar__bottom'></div>
     </div>
   )
 }
