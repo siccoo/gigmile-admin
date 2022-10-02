@@ -1,11 +1,19 @@
 .home {
-    display: flex;
+  display: flex;
 
-    &__container {
-        flex: 6;
+  &__container {
+    flex: 6;
 
-        &__widgets {
-           display: flex; 
-        }
+    &__widgets {
+      display: flex;
+      padding: 20px;
+      gap: 10px;
+
+      .home__smallWidget {
+        // width: 389px;
+        gap: 10px;
+        display: flex;
+      }
     }
+  }
 }
