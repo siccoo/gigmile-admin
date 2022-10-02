@@ -8,7 +8,9 @@ const Home = () => {
       <Sidebar />
       <div className="home__container">
         <Topbar />
-        Content
+        <div className="home__container__widgets">
+
+        </div>
       </div>
     </div>
   )
