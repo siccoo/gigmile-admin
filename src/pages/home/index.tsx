@@ -1,8 +1,10 @@
 import Sidebar from "../../components/sidebar";
 import Topbar from "../../components/topbar";
-import Widgets from "../../components/widgets";
+import Widgets from "../../components/activeWidgets";
 
 import "./home.scss";
+import DefWidgets from "../../components/defaultWidgets";
+import GigWidgets from "../../components/gigWigets";
 
 const Home = () => {
   return (
@@ -13,8 +15,8 @@ const Home = () => {
         <div className="home__container__widgets">
           <Widgets />
           <div className="home__smallWidget">
-            <Widgets />
-            <Widgets />
+            <DefWidgets />
+            <GigWidgets />
           </div>
         </div>
       </div>

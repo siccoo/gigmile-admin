@@ -1,12 +1,12 @@
 import "./widgets.scss"
 
-const Widgets = () => {
+const ActiveWidgets = () => {
     return (
-        <div className='widgets'>Widgets
+        <div className='widgets'>
             <div className='widgets__left'>Left</div>
             <div className='widgets__right'>Right</div>
         </div>
     )
 }
 
-export default Widgets
+export default ActiveWidgets
